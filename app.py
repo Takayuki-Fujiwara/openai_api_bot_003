@@ -44,7 +44,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("広島観光AIアシスタント")
-st.image("hiroshima_pic1s.png")
+st.image("hiroshima_pic2.png")
 st.write("何を知りたいですか？")
 
 user_input = st.text_input("質問を入力してください。", key="user_input", on_change=communicate)
